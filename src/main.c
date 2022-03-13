@@ -16,6 +16,10 @@
 
 int main()
 {
+    int x;
+
 	int	y[]= {2,3,4,34,6,7,7,789};
     print_stack(new_stack(y, 8));
+    x = head(new_stack(y, 8));
+    ft_printf("%i\n", x);
 }

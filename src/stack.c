@@ -62,12 +62,16 @@ void	*print_stack(struct s_stack *s)
 	return (0);
 }
 
-/*
-int		head(struct s_stack *s)
-{
 
+int		head(struct s_stack *s)
+{	
+		int y;
+
+		y = (*s).x[0];
+		return (y);
 }
 
+/*
 int		pop(struct s_stack *s)
 {
 
